@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.lamp {
+    height: 400px;
+    width: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.button {
+    height: 100px;
+    width: 100px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.lamp-off {
+    background-image: url('../img/off.jpg')
+}
+
+.lamp-on {
+    background-image: url('../img/on.jpg')
+}
+
+.button-off {
+    background-image: url('../img/button off.jpg')
+}
+
+.button-on {
+    background-image: url('../img/button on.jpg')
+}
